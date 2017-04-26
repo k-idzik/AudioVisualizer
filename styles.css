@@ -1,0 +1,47 @@
+body
+{
+    background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}       
+canvas
+{
+    background: black;
+    display: block; /*Centering*/
+    margin: auto; /*Centering*/
+}
+h1
+{
+    text-align: center;
+}
+
+#controls
+{
+    margin-top:10px;
+    text-align: center;
+}
+#helper
+{
+    font-size: 10px;
+    text-align: center;
+}
+#status
+{
+    left: 10px;
+    position: absolute;
+    color: white;
+    top: 100px;
+}
+
+.coupledItems
+{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.divider
+{
+    clear: both;
+    margin-top: 10px;
+}
